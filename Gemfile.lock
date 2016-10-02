@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    trado_pdf_invoice_module (0.0.1)
+      wicked_pdf (~> 1.1)
+      wkhtmltopdf-binary (~> 0.12)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    wicked_pdf (1.1.0)
+    wkhtmltopdf-binary (0.12.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  trado_pdf_invoice_module!
+
+BUNDLED WITH
+   1.11.2
