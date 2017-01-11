@@ -19,7 +19,7 @@ Then run bundle to install the Gem:
 bundle install
 ```
 
-Set new route:
+Add initializer configuration and set new route:
 
 ```sh
 rails generate trado_pdf_invoice_module:install
