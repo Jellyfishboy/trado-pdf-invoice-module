@@ -10,6 +10,10 @@ module TradoPdfInvoiceModule
                 CONTENT
                 inject_into_file "config/routes.rb", route_content, after: "Trado::Application.routes.draw do"
             end
+
+            def copy_controller
+                template "initializer.rb", "config/initializers/wicked_pdf.rb"
+            end
         end
     end
 end
