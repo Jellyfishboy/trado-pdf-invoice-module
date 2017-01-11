@@ -6,7 +6,7 @@ module TradoPdfInvoiceModule
             def setup_routes
                 route_content = <<-CONTENT
 
-    mount TradoPdfInvoiceModule::Engine => '/'
+    mount TradoPdfInvoiceModule::Engine => '/', as: 'pdf_invoice'
                 CONTENT
                 inject_into_file "config/routes.rb", route_content, after: "Trado::Application.routes.draw do"
             end
