@@ -10,7 +10,7 @@ class TradoPdfInvoiceModule::Admin::OrdersController < ApplicationController
     private
 
     def set_order
-        @order ||= Order.active.completed_collection.find(params[:id])
+        @order ||= Order.active.complete.find(params[:id])
     end
 
     def create_pdf
