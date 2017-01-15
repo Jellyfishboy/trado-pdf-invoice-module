@@ -36,7 +36,7 @@ foreman start -f Procfile.dev
 
 ## Versioning
 
-Trado Pdf Invoice module follows Semantic Versioning 2.0 as defined at
+Trado PDF Invoice module follows Semantic Versioning 2.0 as defined at
 <http://semver.org>.
 
 ## How to contribute
